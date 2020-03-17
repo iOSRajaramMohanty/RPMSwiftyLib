@@ -92,7 +92,7 @@ This CocoaPods library helps you perform calculation.
   #  Not including the public_header_files will make all headers public.
   #
 
-   spec.source_files  = "SwiftyLbl/*.swift"
+   spec.source_files  = "RPMSwiftyLbl/*.swift"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
