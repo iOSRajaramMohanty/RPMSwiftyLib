@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import SwiftyLbl
 
 class ViewController: UIViewController {
 
+    var swiftyLib: SwiftyLib!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let x = swiftyLib.add(a: 2, b: 3)
+        
+        swiftyLib.
     }
 
 
