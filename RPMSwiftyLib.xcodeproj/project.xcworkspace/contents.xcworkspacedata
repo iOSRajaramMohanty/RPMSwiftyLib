@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwiftyLbl.xcodeproj">
+      location = "self:/Users/rajmohan/Documents/GitHub/SwiftyLbl/RPMSwiftyLib.xcodeproj">
    </FileRef>
 </Workspace>

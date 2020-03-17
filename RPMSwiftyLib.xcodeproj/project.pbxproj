@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B55BF3152420A31800364734 /* SwiftyLbl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BF30B2420A31800364734 /* SwiftyLbl.framework */; };
+		B55BF3152420A31800364734 /* RPMSwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BF30B2420A31800364734 /* RPMSwiftyLib.framework */; };
 		B55BF31A2420A31800364734 /* SwiftyLblTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BF3192420A31800364734 /* SwiftyLblTests.swift */; };
 		B55BF31C2420A31800364734 /* SwiftyLbl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55BF30E2420A31800364734 /* SwiftyLbl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B55BF3522420A43200364734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BF3512420A43200364734 /* AppDelegate.swift */; };
@@ -30,10 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B55BF30B2420A31800364734 /* SwiftyLbl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLbl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55BF30B2420A31800364734 /* RPMSwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPMSwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55BF30E2420A31800364734 /* SwiftyLbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLbl.h; sourceTree = "<group>"; };
 		B55BF30F2420A31800364734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B55BF3142420A31800364734 /* SwiftyLblTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLblTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55BF3142420A31800364734 /* RPMSwiftyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPMSwiftyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55BF3192420A31800364734 /* SwiftyLblTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLblTests.swift; sourceTree = "<group>"; };
 		B55BF31B2420A31800364734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55BF34F2420A43200364734 /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55BF3152420A31800364734 /* SwiftyLbl.framework in Frameworks */,
+				B55BF3152420A31800364734 /* RPMSwiftyLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +76,9 @@
 		B55BF3012420A31800364734 = {
 			isa = PBXGroup;
 			children = (
-				B55BF30D2420A31800364734 /* SwiftyLbl */,
-				B55BF3182420A31800364734 /* SwiftyLblTests */,
-				B55BF3502420A43200364734 /* SwiftyLibExamples */,
+				B55BF30D2420A31800364734 /* RPMSwiftyLib */,
+				B55BF3182420A31800364734 /* RPMSwiftyLibTests */,
+				B55BF3502420A43200364734 /* RPMSwiftyLibExamples */,
 				B55BF30C2420A31800364734 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,33 +86,33 @@
 		B55BF30C2420A31800364734 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B55BF30B2420A31800364734 /* SwiftyLbl.framework */,
-				B55BF3142420A31800364734 /* SwiftyLblTests.xctest */,
+				B55BF30B2420A31800364734 /* RPMSwiftyLib.framework */,
+				B55BF3142420A31800364734 /* RPMSwiftyLibTests.xctest */,
 				B55BF34F2420A43200364734 /* SwiftyLibExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B55BF30D2420A31800364734 /* SwiftyLbl */ = {
+		B55BF30D2420A31800364734 /* RPMSwiftyLib */ = {
 			isa = PBXGroup;
 			children = (
 				B55BF30E2420A31800364734 /* SwiftyLbl.h */,
 				B55BF30F2420A31800364734 /* Info.plist */,
 				B55BF3632420AA8800364734 /* SwiftyLib.swift */,
 			);
-			path = SwiftyLbl;
+			path = RPMSwiftyLib;
 			sourceTree = "<group>";
 		};
-		B55BF3182420A31800364734 /* SwiftyLblTests */ = {
+		B55BF3182420A31800364734 /* RPMSwiftyLibTests */ = {
 			isa = PBXGroup;
 			children = (
 				B55BF3192420A31800364734 /* SwiftyLblTests.swift */,
 				B55BF31B2420A31800364734 /* Info.plist */,
 			);
-			path = SwiftyLblTests;
+			path = RPMSwiftyLibTests;
 			sourceTree = "<group>";
 		};
-		B55BF3502420A43200364734 /* SwiftyLibExamples */ = {
+		B55BF3502420A43200364734 /* RPMSwiftyLibExamples */ = {
 			isa = PBXGroup;
 			children = (
 				B55BF3512420A43200364734 /* AppDelegate.swift */,
@@ -123,7 +123,7 @@
 				B55BF35C2420A43300364734 /* LaunchScreen.storyboard */,
 				B55BF35F2420A43300364734 /* Info.plist */,
 			);
-			path = SwiftyLibExamples;
+			path = RPMSwiftyLibExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +140,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B55BF30A2420A31800364734 /* SwiftyLbl */ = {
+		B55BF30A2420A31800364734 /* RPMSwiftyLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B55BF31F2420A31800364734 /* Build configuration list for PBXNativeTarget "SwiftyLbl" */;
+			buildConfigurationList = B55BF31F2420A31800364734 /* Build configuration list for PBXNativeTarget "RPMSwiftyLib" */;
 			buildPhases = (
 				B55BF3062420A31800364734 /* Headers */,
 				B55BF3072420A31800364734 /* Sources */,
@@ -153,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftyLbl;
+			name = RPMSwiftyLib;
 			productName = SwiftyLbl;
-			productReference = B55BF30B2420A31800364734 /* SwiftyLbl.framework */;
+			productReference = B55BF30B2420A31800364734 /* RPMSwiftyLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B55BF3132420A31800364734 /* SwiftyLblTests */ = {
+		B55BF3132420A31800364734 /* RPMSwiftyLibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B55BF3222420A31800364734 /* Build configuration list for PBXNativeTarget "SwiftyLblTests" */;
+			buildConfigurationList = B55BF3222420A31800364734 /* Build configuration list for PBXNativeTarget "RPMSwiftyLibTests" */;
 			buildPhases = (
 				B55BF3102420A31800364734 /* Sources */,
 				B55BF3112420A31800364734 /* Frameworks */,
@@ -171,9 +171,9 @@
 			dependencies = (
 				B55BF3172420A31800364734 /* PBXTargetDependency */,
 			);
-			name = SwiftyLblTests;
+			name = RPMSwiftyLibTests;
 			productName = SwiftyLblTests;
-			productReference = B55BF3142420A31800364734 /* SwiftyLblTests.xctest */;
+			productReference = B55BF3142420A31800364734 /* RPMSwiftyLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B55BF34E2420A43200364734 /* SwiftyLibExamples */ = {
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B55BF3052420A31800364734 /* Build configuration list for PBXProject "SwiftyLbl" */;
+			buildConfigurationList = B55BF3052420A31800364734 /* Build configuration list for PBXProject "RPMSwiftyLib" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B55BF30A2420A31800364734 /* SwiftyLbl */,
-				B55BF3132420A31800364734 /* SwiftyLblTests */,
+				B55BF30A2420A31800364734 /* RPMSwiftyLib */,
+				B55BF3132420A31800364734 /* RPMSwiftyLibTests */,
 				B55BF34E2420A43200364734 /* SwiftyLibExamples */,
 			);
 		};
@@ -294,7 +294,7 @@
 /* Begin PBXTargetDependency section */
 		B55BF3172420A31800364734 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B55BF30A2420A31800364734 /* SwiftyLbl */;
+			target = B55BF30A2420A31800364734 /* RPMSwiftyLib */;
 			targetProxy = B55BF3162420A31800364734 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,7 +448,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyLbl/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RPMSwiftyLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +474,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyLbl/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RPMSwiftyLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,7 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RPMSwiftyLibExamples/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,7 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RPMSwiftyLibExamples/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -565,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B55BF3052420A31800364734 /* Build configuration list for PBXProject "SwiftyLbl" */ = {
+		B55BF3052420A31800364734 /* Build configuration list for PBXProject "RPMSwiftyLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B55BF31D2420A31800364734 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B55BF31F2420A31800364734 /* Build configuration list for PBXNativeTarget "SwiftyLbl" */ = {
+		B55BF31F2420A31800364734 /* Build configuration list for PBXNativeTarget "RPMSwiftyLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B55BF3202420A31800364734 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B55BF3222420A31800364734 /* Build configuration list for PBXNativeTarget "SwiftyLblTests" */ = {
+		B55BF3222420A31800364734 /* Build configuration list for PBXNativeTarget "RPMSwiftyLibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B55BF3232420A31800364734 /* Debug */,

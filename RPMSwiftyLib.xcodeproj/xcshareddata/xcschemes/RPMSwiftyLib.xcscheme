@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B55BF30A2420A31800364734"
-               BuildableName = "SwiftyLbl.framework"
-               BlueprintName = "SwiftyLbl"
-               ReferencedContainer = "container:SwiftyLbl.xcodeproj">
+               BuildableName = "RPMSwiftyLib.framework"
+               BlueprintName = "RPMSwiftyLib"
+               ReferencedContainer = "container:RPMSwiftyLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B55BF3132420A31800364734"
-               BuildableName = "SwiftyLblTests.xctest"
-               BlueprintName = "SwiftyLblTests"
-               ReferencedContainer = "container:SwiftyLbl.xcodeproj">
+               BuildableName = "RPMSwiftyLibTests.xctest"
+               BlueprintName = "RPMSwiftyLibTests"
+               ReferencedContainer = "container:RPMSwiftyLib.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B55BF30A2420A31800364734"
-            BuildableName = "SwiftyLbl.framework"
-            BlueprintName = "SwiftyLbl"
-            ReferencedContainer = "container:SwiftyLbl.xcodeproj">
+            BuildableName = "RPMSwiftyLib.framework"
+            BlueprintName = "RPMSwiftyLib"
+            ReferencedContainer = "container:RPMSwiftyLib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
